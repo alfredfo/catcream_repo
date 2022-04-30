@@ -1,4 +1,4 @@
-My public ebuild repository
+# My public ebuild repository
 
 Add this repository with app-eselect/eselect-repository by running:
 
