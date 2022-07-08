@@ -8,7 +8,7 @@ HOMEPAGE="https://github.com/void-linux/void-packages/tree/master/srcpkgs/musl-l
 
 LICENSE="|| ( BSD-2 BSD )"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 
 S="${WORKDIR}"
 
