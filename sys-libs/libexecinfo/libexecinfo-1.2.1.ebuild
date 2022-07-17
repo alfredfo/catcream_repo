@@ -6,7 +6,7 @@ inherit meson
 
 DESCRIPTION="Clone of the backtrace facility found in glibc"
 HOMEPAGE="https://github.com/alfredfo/libexecinfo"
-SRC_URI="https://github.com/alfredfo/libexecinfo/archive/refs/tags/v1.2.0.tar.gz"
+SRC_URI="https://github.com/alfredfo/libexecinfo/archive/refs/tags/v1.2.1.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
