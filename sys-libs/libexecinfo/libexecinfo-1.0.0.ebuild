@@ -13,5 +13,6 @@ SLOT="0"
 KEYWORDS=""
 
 RDEPEND=""
-DEPEND="${RDEPEND}"
+DEPEND="sys-libs/libunwind
+	${RDEPEND}"
 S="${WORKDIR}"/${PN}-unw-${PV}
