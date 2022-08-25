@@ -6,7 +6,7 @@ inherit meson
 
 DESCRIPTION="Standalone implementation of glibc's execinfo using libunwind"
 HOMEPAGE="https://github.com/alfredfo/libexecinfo-unw"
-SRC_URI="https://github.com/alfredfo/libexecinfo-unw/archive/refs/tags/1.0.0.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/alfredfo/libexecinfo-unw/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
