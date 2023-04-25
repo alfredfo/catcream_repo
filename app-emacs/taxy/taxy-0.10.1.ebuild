@@ -17,3 +17,8 @@ KEYWORDS="~amd64"
 
 S="${WORKDIR}/${PN}.el"
 SITEFILE="50${PN}-gentoo.el"
+
+DEPEND="
+	>=app-emacs/taxy-magit-section-0.12.2
+"
+BDEPEND="${DEPEND}"
