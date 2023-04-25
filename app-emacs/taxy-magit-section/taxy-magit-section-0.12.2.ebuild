@@ -16,3 +16,8 @@ KEYWORDS="~amd64"
 
 S="${WORKDIR}/taxy.el-${P}"
 SITEFILE="50${PN}-gentoo.el"
+
+DEPEND="
+	>=app-emacs/taxy-0.10.1
+"
+RDEPEND="${DEPEND}"

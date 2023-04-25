@@ -15,10 +15,5 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
-S="${WORKDIR}/${PN}.el"
+S="${WORKDIR}/${PN}.el-${PV}"
 SITEFILE="50${PN}-gentoo.el"
-
-DEPEND="
-	>=app-emacs/taxy-magit-section-0.12.2
-"
-BDEPEND="${DEPEND}"

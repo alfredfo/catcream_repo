@@ -18,7 +18,6 @@ S="${WORKDIR}/${PN}.el-${PV}"
 SITEFILE="50${PN}-gentoo.el"
 
 DEPEND="
-	>=app-emacs/taxy-magit-section-0.12.2
-	>=app-emacs/persist-0.5
+	net-misc/curl
 "
 RDEPEND="${DEPEND}"

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+  <maintainer type="person">
+	<email>cat@catcream.org</email>
+	<name>catcream</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">alphapapa/ement.el</remote-id>
+  </upstream>
+</pkgmetadata>
