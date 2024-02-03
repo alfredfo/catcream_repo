@@ -1,0 +1,22 @@
+From d7ffee6482cdfd5677fc93aea95e71268a0b5f00 Mon Sep 17 00:00:00 2001
+From: Alfred Persson Forsberg <cat@catcream.org>
+Date: Sat, 3 Feb 2024 16:46:19 +0100
+Subject: [PATCH] add install target for zsign binary
+
+Signed-off-by: Alfred Persson Forsberg <cat@catcream.org>
+---
+ CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index acf8e35..e89b554 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -41,3 +41,4 @@ file(GLOB SRC common/*.cpp ./**.cpp)
+ add_executable(zsign ${SRC})
+ target_link_libraries(zsign ${LIB_LIST})
+ 
++install(TARGETS zsign DESTINATION bin)
+-- 
+2.43.0
+
