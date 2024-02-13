@@ -19,5 +19,5 @@ DEPEND="
 
 RDEPEND=">=virtual/jre-1.8:*"
 
-JAVA_AUTOMATIC_MODULE_NAME="org.mcgui.mcgui"
+JAVA_AUTOMATIC_MODULE_NAME="mcgui"
 JAVA_MAIN_CLASS="mcgui.Main"
