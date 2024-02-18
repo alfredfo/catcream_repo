@@ -14,10 +14,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 DEPEND="
-	>=virtual/jdk-1.8:*
+	>=virtual/jdk-21:*
 "
 
-RDEPEND=">=virtual/jre-1.8:*"
+RDEPEND=">=virtual/jre-21:*"
 
 JAVA_AUTOMATIC_MODULE_NAME="mcgui"
 JAVA_MAIN_CLASS="mcgui.Main"
