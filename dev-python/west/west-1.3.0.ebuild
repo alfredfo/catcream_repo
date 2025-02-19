@@ -9,7 +9,7 @@ DESCRIPTION="Zephyr RTOS Project meta-tool"
 HOMEPAGE="https://github.com/zephyrproject-rtos/west"
 SLOT="0"
 
-LICENSE=""
+LICENSE="Apache-2.0"
 KEYWORDS="~amd64"
 
 RDEPEND="
