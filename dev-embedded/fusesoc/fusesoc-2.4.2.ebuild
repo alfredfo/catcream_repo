@@ -19,5 +19,7 @@ RDEPEND="
 	>=dev-python/simplesat-0.9.1
 	dev-python/fastjsonschema
 	dev-python/jsonschema
+	dev-python/okonomiyaki
+	dev-python/simplesat
 "
 BDEPEND=""
