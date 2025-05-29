@@ -28,6 +28,11 @@ src_compile() {
 
 src_install() {
 	dobin alps
+	insinto /var/lib/${PN}
+	doins -r themes
+	doins -r plugins
 	systemd_dounit "${FILESDIR}/alps.service"
+	keepdir /var/lib/${PN}/themes
+	keepdir /var/lib/${PN}/plugins
 	einstalldocs
 }

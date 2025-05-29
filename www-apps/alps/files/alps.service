@@ -6,7 +6,8 @@ After=network.target dovecot.service
 Type=simple
 User=alps
 Group=alps
-ExecStart=/bin/alps
+ExecStart=/bin/alps -theme alps imap+insecure://localhost smtp+insecure://localhost
+WorkingDirectory=~
 Restart=on-failure
 
 [Install]
