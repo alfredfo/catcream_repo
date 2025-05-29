@@ -15,7 +15,6 @@ S="${WORKDIR}/alps-${COMMIT}"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
 
 RDEPEND="
 	acct-user/alps
