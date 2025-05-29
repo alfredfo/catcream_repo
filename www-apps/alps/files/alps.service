@@ -1,0 +1,13 @@
+[Unit]
+Description=Alps Webmail
+After=network.target dovecot.service
+
+[Service]
+Type=simple
+User=alps
+Group=alps
+ExecStart=/bin/alps
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
