@@ -6,7 +6,7 @@ EAPI=8
 inherit autotools
 
 DESCRIPTION="Train simulator"
-HOMEPAGE=""
+HOMEPAGE="https://github.com/sidju/tsim"
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
@@ -16,10 +16,6 @@ fi
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
-
-RDEPEND=""
-DEPEND="${RDEPEND}"
-BDEPEND=""
 
 src_prepare() {
 	default
