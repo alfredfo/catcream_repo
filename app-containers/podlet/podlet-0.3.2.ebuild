@@ -201,6 +201,7 @@ inherit cargo
 DESCRIPTION="Generate Podman Quadlet files from a Podman command, compose file, or existing object"
 HOMEPAGE=""
 SRC_URI="
+	https://github.com/containers/podlet/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
 	${CARGO_CRATE_URIS}
 "
 
